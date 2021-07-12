@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/gabyhall/CLI/issues"
   },
-  "homepage": "https://github.com/gabyhall/CLI#readme"
+  "homepage": "https://github.com/gabyhall/CLI#readme",
+  "dependencies": {}
 }

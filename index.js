@@ -34,3 +34,22 @@ const read = () => {
 };
 
 read();
+
+
+const remove = () => {
+    if (process.argv[2] === "remove") { 
+  let temp = (i) => {
+            return i = {movie: process.argv[3]};
+        }
+       let index = movieList.findIndex(temp);
+      
+
+       console.log(index)
+
+    //     let stringMovieList = JSON.stringify(movieList);
+    //     console.log(stringMovieList);
+    //     fs.writeFileSync('./netflix.json', stringMovieList);
+    }
+};
+
+remove();
